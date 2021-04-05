@@ -1,19 +1,49 @@
 .header {
-    background-color: green;
+    background-color:black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    justify-content: center;
 }
 
 h1 {
-    color: white;
-    background-color: green;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
 }
 body {
-    background-color: black;
+    background-color: white;
 }
 
-.paragraph {
+p {
     color: black;
-    background-color: honeydew;
+    border-style: inset;
+    border-color: grey;
+}
+
+.topBanner {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+  }
+
+aside {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    float: right;
+    justify-content: right;
+}
+
+.image {
+    float: right;
+    justify-content: right;
 }
