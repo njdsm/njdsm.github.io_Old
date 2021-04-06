@@ -26,6 +26,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
     justify-content: center;
+    display: flex;
 }
 
 div {
@@ -59,4 +60,13 @@ li{
     content: "";
     clear: both;
     display: table;
+}
+
+.menu {
+    float: left;
+    padding: 5px;
+}
+
+a {
+    justify-content: center;
 }
