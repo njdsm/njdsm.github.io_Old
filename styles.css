@@ -1,10 +1,14 @@
+*{
+    color: white;
+}
+
 a {
     justify-content: center;
 }
 
 body {
-    /* background-image: url(./Images/Untitled_Artwork.png); */
-    background-color:white;
+    background-image: url(./Images/Background.jpg);
+    /* background-color:white; */
 }
 
 .column {
@@ -47,7 +51,6 @@ li{
 }
 
 .topBanner {
-    color:black;
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
     justify-content: center;
