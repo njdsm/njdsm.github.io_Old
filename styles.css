@@ -12,13 +12,13 @@ h1 {
 }
 body {
     /* background-image: url(./Images/Untitled_Artwork.png); */
-    background-color: white;
+    background-color:white;
 }
 
 p {
-    color: black;
-    border-style: inset;
-    border-color: grey;
+    justify-content: center;
+    display: flex;
+
 }
 
 .topBanner {
@@ -31,7 +31,7 @@ p {
 
 div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     white-space: pre;
   }
 
@@ -62,9 +62,13 @@ li{
     display: table;
 }
 
-.menu {
+.menu_item {
     float: left;
     padding: 5px;
+}
+
+.menu {
+    justify-content: left;
 }
 
 a {
