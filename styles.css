@@ -38,15 +38,15 @@
     /* menu styling section */
     
     .max-width {
-        max-width: 1300px;
-        padding: 0 80px;
+        max-width: 600px;
+        padding: 0 40px;
         margin: auto;
     }
     
     .navbar {
         position: fixed;
         width: 100%;
-        padding: 30px 0;
+        padding: 10px 0;
         font-family: 'Times New Roman', Times, serif;
         background-color: black;
         transition: all 0.3s ease;
@@ -65,7 +65,7 @@
     
     .navbar .logo a {
         color: white;
-        font-size: 25px;
+        font-size: 15vw;
         font-weight: 600;
     }
     
@@ -101,7 +101,7 @@
     
     /* Home section styling */
     .home .max-width {
-        margin: auto 0 auto 30px ;
+        margin: auto 0 auto 5vw ;
     }
     
     .home .home-content .text1{
@@ -124,7 +124,7 @@
     
     /* About me section styling */
     .about-me .max-width {
-        margin: auto 0 auto 40px 
+        margin: auto 0 auto 5vw;
     }
     
     .about-me .about-me-content .text1 {
