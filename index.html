@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <h1 id="topBanner" class="topBanner">Nathanial Johnson</h1>
-    <div id="menu">
-        <a class="menu_item" href="#About_Me">About Me</a>      
-        <a class="menu_item" href="#Projects">Projects</a>
-        <a class="menu_item" href="#Contact">Contact</a>
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Nate Johnson</a></div>
+            <ul class="menu">
+                <li><a class="menu_item" href="#About_Me">About Me</a></li>
+                <li><a class="menu_item" href="#Projects">Projects</a></li>
+                <li><a class="menu_item" href="#Contact">Contact</a></li>
+            </ul>
+        </div>
     </div>
     <div class="row">
         <div class="column">
@@ -25,40 +30,58 @@
             <img src="Images/right_me.jpg" alt="Picture of Me"  class="image" style="width:100%; height:100%">
         </div>
     </div>
-    <h2 class="header">Home</h2>
-    <ul>
-        <li>Thanks for visiting my portfolio!</li>
-        <li>Below you will find some information about me and the work I've done.</li>
-    </ul>
-    
-    <h2 class="header">About Me</h2>
-        <ul>
-            <li>Hi, I'm Nathanial Johnson, feel free to call me Nate. I'm an aspiring software developer.</li>
-            <br>
-            <li>I did 6 years in the USAF as a computer programmer. I worked on high performance computers to create high quality weather models.</li>
-            <li>My most notable accomplishment in those 6 years was modifying our software to utilize undersubscription. Essentially I modified<br>
-                how tasks were submitted. It resulted in drastically more consistent model runs for ~30 different weather models.</li>
-            <br>
-            <li>Check out some of the more recent projects I've worked on below.</li>
-        </ul>
-    <h2 id="Projects" class="header">Projects</h2>
-    <div class="row">
-        <div class="column">
-            <a href="https://github.com/njdsm/DaytripGenerator_proj" target="_blank"><img src="Images/Daytrip_icon.png" alt="Daytrip_icon"  class="image" style="width: 100px; height: 100px"></a>
+
+    <div class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text1">Home</div>
+                <div class="text2">Thanks for visiting my portfolio!</div>
+                <div class="text3">Below you will find some information about me and the work I've done.</div>
+            </div>
         </div>
-        <div class="column">
-            <a href="https://github.com/njdsm" target="_blank"><img src="Images/Placeholder_icon.png" alt="Placeholder_icon"  class="image" style="width: 100px; height: 100px"></a>        </div>
-        <div class="column">
-            <a href="https://github.com/njdsm" target="_blank"><img src="Images/Placeholder_icon.png" alt="Placeholder_icon"  class="image" style="width: 100px; height: 100px"></a>        </div>
     </div>
-    <h2 id="Contact" class="header">Contact</h2>
-        <section>
-            <ul>
-                <li>Phone Number: (515) 491-0775</li><br>
-                <li>Email: <a href="mailto:nathanial.r.johnson@gmail.com?subject=Hello"><b>nathanial.r.johnson@gmail.com</b></a></li><br>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/nathanial-johnson/" target="_blank">linkedin.com/nathanial-johnson</a></li>
-            </ul>
-        </section>
+
+    <br><br><br><br><br><br>
+    
+    <div class="about-me" id="About_me">
+        <div class="max-width">
+            <div class="about-me-content">
+                <div class="text1">About me</div>
+                <div class="text2">Hi, I'm Nathanial Johnson, feel free to call me Nate. I'm an aspiring software developer.</div>
+                <div class="text3">I did 6 years in the USAF as a computer programmer. I worked on high performance computers to create high quality weather models. My most notable accomplishment in those 6 years was modifying our software to utilize undersubscription. Essentially I modified how tasks were submitted. It resulted in drastically more consistent model runs for ~30 different weather models.</div>
+                <div class="text4">Check out some of the more recent projects I've worked on below.</div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+    
+    <div class="projects" id="Projects">
+        <div class="max-width">
+            <div class="projects-content">
+                <div class="text1">Projects</div>
+                <ul class="projects-list">
+                    <li class="column"><a href="https://github.com/njdsm/DaytripGenerator_proj" target="_blank"><img src="Images/Daytrip_icon.png" alt="Daytrip_icon" style="width: 100px; height: 100px"></a></li>
+                    <li class="column"><a href="https://github.com/njdsm/" target="_blank"><img src="Images/Placeholder_icon.png" alt="Placeholder_icon" style="width: 100px; height: 100px"></a></li>
+                    <li class="column"><a href="https://github.com/njdsm/" target="_blank"><img src="Images/Placeholder_icon.png" alt="Placeholder_icon" style="width: 100px; height: 100px"></a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <div class="contact" id="Contact">
+        <div class="max-width">
+            <div class="contact-content">
+                <div class="text1">Contact</div>
+                <div class="text2">Phone Number: (515) 491-0775</div>
+                <div class="text3"><a class="email" href="mailto:nathanial.r.johnson@gmail.com?subject=Hello">nathanial.r.johnson@gmail.com</div>
+                <div class="text4"><a class="linkedin" href="https://www.linkedin.com/in/nathanial-johnson/" target="_blank">linkedin.com/nathanial-johnson</div>
+            </div>
+        </div>
+    </div>
 
     <script type="text/javascript" src="index.js"></script>
 </body>
