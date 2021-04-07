@@ -100,12 +100,12 @@ body {
 }
 
 .home .home-content .text2 {
-    font-size: 40px;
+    font-size: 2.5vw;
     margin: 5px 0;
 }
 
 .home .home-content .text3 {
-    font-size: 20px;
+    font-size: 2.5vw;
     margin: 5px 0;
 }
 
@@ -122,18 +122,18 @@ body {
 }
 
 .about-me .about-me-content .text2 {
-    font-size: 40px;
+    font-size: 2.5vw;
     margin: 5px 0;
 
 }
 
 .about-me .about-me-content .text3 {
-    font-size: 40px;
+    font-size: 2.5vw;
     margin: 5px 0;
 }
 
 .about-me .about-me-content .text4 {
-    font-size: 20px;
+    font-size: 2.5vw;
     margin: 5px 0;
 }
 
