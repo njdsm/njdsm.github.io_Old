@@ -93,7 +93,7 @@ body {
 }
 
 .home .home-content .text1 {
-    font-size: 75px;
+    font-size: 7.5vw;
     font-weight: 600;
     margin-left: -3px;
     color: forestgreen;
@@ -115,7 +115,7 @@ body {
 }
 
 .about-me .about-me-content .text1 {
-    font-size: 75px;
+    font-size: 7.5vw;
     font-weight: 600;
     margin-left: -3px;
     color: forestgreen;
@@ -143,7 +143,7 @@ body {
 }
 
 .projects .projects-content .text1 {
-    font-size: 75px;
+    font-size: 7.5vw;
     font-weight: 600;
     margin-left: -3px;
     color: forestgreen;
@@ -159,25 +159,25 @@ body {
 }
 
 .contact .contact-content .text1 {
-    font-size: 75px;
+    font-size: 7.5vw;
     font-weight: 600;
     margin-left: -3px;
     color: forestgreen;
 }
 
 .contact .contact-content .text2 {
-    font-size: 20px;
+    font-size: 1.5vw;
     margin: 5px 0;
 
 }
 
 .contact .contact-content .text3 {
-    font-size: 20px;
+    font-size: 1.5vw;
     margin: 5px 0;
 }
 
 .contact .contact-content .text4 {
-    font-size: 20px;
+    font-size: 1.5vw;
     margin: 5px 0;
 }
 
