@@ -21,7 +21,7 @@
         width: 33.33%;
         padding: 0px;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 40px;
     }
     
     .bar {
@@ -39,21 +39,21 @@
     
     .max-width {
         max-width: 600px;
-        padding: 0 40px;
+        padding: 10px 0;
         margin: auto;
     }
     
     .navbar {
         position: fixed;
         width: 100%;
-        padding: 10px 0;
+        padding: 7px 0;
         font-family: 'Times New Roman', Times, serif;
         background-color: black;
         transition: all 0.3s ease;
     }
     
     .navbar.sticky {
-        padding: 10px 0;
+        padding: 4px 0;
         background: cornflowerblue;
     }
     
@@ -65,7 +65,7 @@
     
     .navbar .logo a {
         color: white;
-        font-size: 15vw;
+        font-size: 25px;
         font-weight: 600;
     }
     
@@ -101,11 +101,11 @@
     
     /* Home section styling */
     .home .max-width {
-        margin: auto 0 auto 5vw ;
+        margin: auto 0 auto 5px ;
     }
     
     .home .home-content .text1{
-        font-size: 15vw;
+        font-size: 40px;
         font-weight: 600;
         margin-left: -3px;
         color: cornflowerblue;
@@ -113,50 +113,49 @@
     }
     
     .home .home-content .text2 {
-        font-size: 10vw;
+        font-size: 5vw;
         margin: 3px 0;
     }
     
     .home .home-content .text3 {
-        font-size: 10vw;
+        font-size: 5vw;
         margin: 3px 0;
     }
     
     /* About me section styling */
     .about-me .max-width {
-        margin: auto 0 auto 5vw;
+        margin: auto 0 auto 5px;
     }
     
     .about-me .about-me-content .text1 {
-        font-size: 15vw;
+        font-size: 40px;
         font-weight: 600;
         margin-left: -3px;
         color: cornflowerblue;
     }
     
     .about-me .about-me-content .text2 {
-        font-size: 10vw;
+        font-size: 5vw;
         margin: 3px 0;
-    
     }
     
     .about-me .about-me-content .text3 {
-        font-size: 10vw;
+        font-size: 4vw;
         margin: 3px 0;
     }
     
     .about-me .about-me-content .text4 {
-        font-size: 10vw;
+        font-size: 4vw;
         margin: 3px 0;
     }
     
     /* Projects section styling */
     .projects .max-width {
-        margin: auto 0 auto 20px 
+        margin: auto 0 auto 5px 
     }
     
     .projects .projects-content .text1 {
-        font-size: 15vw;
+        font-size: 40px;
         font-weight: 600;
         margin-left: -3px;
         color: cornflowerblue;
@@ -164,14 +163,13 @@
     
     .projects .projects-content li {
         list-style: none;
-        size: 25vw;
         /* min-inline-size: 100px; */
         display: inline-block;
     }
     
     /* Contact section styling */
     .contact .max-width {
-        margin: auto 0 auto 20px 
+        margin: auto 0 auto 20px;
     }
     
     .contact .contact-content .text1 {
@@ -182,18 +180,18 @@
     }
     
     .contact .contact-content .text2 {
-        font-size: 10vw;
+        font-size: 15px;
         margin: 3px 0;
     
     }
     
     .contact .contact-content .text3 {
-        font-size: 15vw;
+        font-size: 15px;
         margin: 3px 0;
     }
     
     .contact .contact-content .text4 {
-        font-size: 10vw;
+        font-size: 15px;
         margin: 3px 0;
     }
     
