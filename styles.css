@@ -1,4 +1,4 @@
-*{
+* {
     color: white;
     margin: 0;
     padding: 0;
@@ -23,6 +23,17 @@ body {
     margin-top: 80px;
 }
 
+.bar {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.bar.sticky {
+    background: cornflowerblue;
+    color: cornflowerblue;
+    border-color:cornflowerblue;
+}
+
 /* menu styling section */
 
 .max-width {
@@ -42,7 +53,7 @@ body {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: forestgreen;
+    background: cornflowerblue;
 }
 
 .navbar .max-width {
@@ -58,7 +69,7 @@ body {
 }
 
 .navbar .logo a span {
-    color: forestgreen;
+    color: cornflowerblue;
 }
 
 .navbar.sticky .logo a span {
@@ -80,7 +91,7 @@ body {
 }
 
 .navbar .menu li a:hover {
-    color:forestgreen;
+    color: cornflowerblue;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -89,14 +100,15 @@ body {
 
 /* Home section styling */
 .home .max-width {
-    margin: auto 0 auto 40px 
+    margin: auto 0 auto 40px ;
 }
 
-.home .home-content .text1 {
+.home .home-content .text1{
     font-size: 7.5vw;
     font-weight: 600;
     margin-left: -3px;
-    color: forestgreen;
+    color: cornflowerblue;
+    /* background-color: black; */
 }
 
 .home .home-content .text2 {
@@ -118,7 +130,7 @@ body {
     font-size: 7.5vw;
     font-weight: 600;
     margin-left: -3px;
-    color: forestgreen;
+    color: cornflowerblue;
 }
 
 .about-me .about-me-content .text2 {
@@ -146,7 +158,7 @@ body {
     font-size: 7.5vw;
     font-weight: 600;
     margin-left: -3px;
-    color: forestgreen;
+    color: cornflowerblue;
 }
 
 .projects .projects-content li {
@@ -162,7 +174,7 @@ body {
     font-size: 7.5vw;
     font-weight: 600;
     margin-left: -3px;
-    color: forestgreen;
+    color: cornflowerblue;
 }
 
 .contact .contact-content .text2 {
@@ -186,5 +198,5 @@ body {
 }
 
 .contact .contact-content a:hover {
-    color:forestgreen;
+    color: cornflowerblue;
 }
