@@ -165,13 +165,6 @@ body {
     list-style: none;
 }
 
-.column2 {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    justify-content: center;
-}
-
 /* Contact section styling */
 .contact .max-width {
     margin: auto 0 auto 40px 
